@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+
+.image_1 {
+    background: url(images/object6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 635px;
+    text-align: center;
+    position: absolute;
+}
+
+.layer {
+    width: 100%;
+    height: 635px;
+    position: absolute;
+    text-align: center;
+}
+
+.text_1 {
+    color: maroon;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.rectangle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid maroon;
+    transform: translate(-50%, -25%);
+    position: absolute;
+    margin-top: -60px;
+    left: 50%;
+}
+
+.rectangle h2 {
+    color: maroon;
+    font-size: 50px;
+    font-weight: lighter;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+#taste {
+    color: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.layer span {
+    text-align: center;
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    margin-left: -40px;
+    background: white;
+}
+
+.text_1 h1 {
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-family: Georgia, Times, serif;
+}
+
+.text_1 p {
+    font: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text_1_btn {
+    background: maroon;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    outline: none;
+    border: 1px solid silver;
+    width: 130px;
+    height: 35px;
+}
+
+.text_1_btn:hover {
+    background: brown;
+    color: white;
+    transition: 0.8s ease;
+    border: none;
+}
+
